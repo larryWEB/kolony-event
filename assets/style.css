@@ -20,7 +20,7 @@
 }
 
 p, button{
-  font-family: "Italianno", cursive;
+  font-family: "Sofadi One", system-ui;
   font-style: normal;
 }
 
@@ -44,6 +44,7 @@ h1,h2,h3,h4,h5,h6{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
 
