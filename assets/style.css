@@ -1,10 +1,32 @@
 /* Google Fonts - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+  font-family: "Italianno", cursive;
+  font-style: normal;
+}
 
 
 h1,h2,h3,h4,h5,h6{
-  font-family: "Sofadi One", system-ui;
+  font-family: "Italianno", cursive;
   font-style: normal;
 }
 
@@ -180,10 +202,10 @@ justify-content: center;
         .nav-link a {
         text-decoration: none;
         color: goldenrod;
-        font-family: "Sofadi One", system-ui;
+        font-family: "Italianno", cursive;
         font-weight: 400;
         font-style: normal;
-        font-size: 25px;
+        font-size: 35px;
         }
         
         .nav-link {
@@ -195,7 +217,7 @@ justify-content: center;
         margin: 46px;
         font-weight: bold;
         font-family: var(--font-2);
-        top:70px;
+        top:110px;
         }
         
         #special-btn {
