@@ -281,7 +281,7 @@ font-weight: 400;
 
 <style>
 #services{
-  padding:15px;
+  padding:35px 15px 15px 15px;
   display: flex;
   flex-direction: column;
 justify-content: center;
@@ -289,6 +289,20 @@ align-items: center;
 gap:20px;
 position:relative;
 top:50px;
+text-align: center;
+}
+
+#services h1{
+ font-size:30px;
+}
+
+#services p{
+ font-size:20px;
+}
+
+
+.box-text h1{
+  color: white;
 }
 
 .box-text{
@@ -308,7 +322,7 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-
+padding-top: 10px;
 }
 
 .serv-box div{
@@ -337,7 +351,11 @@ filter: brightness(60%);
 
 <h1> SERVICES</h1>
 
-<p>We are passionate about our services in event planning and decoration, event management,consultation and training.</p>
+<p>We are passionate about our services in event planning and decoration, 
+  event management,consultation and 
+  training. Our clients are at the heart of 
+everything we do, and we are committed
+to  delivering exceptional experiences that exceed expectations.</p>
 
 
 
@@ -405,12 +423,14 @@ filter: brightness(60%);
 <style>
 
 #portfolio{
-
+padding-top: 150px;
+text-align: center;
+font-size: 23px;
 }
 
 
 .port-mother{
-  
+  padding-top: 30px;
 }
 
 
@@ -456,6 +476,9 @@ filter: brightness(60%);
 
 </div>
 
+<div class="f-mail">
+  <button> <a href="gallery.html">VIEW MORE </a></button>
+</div>
 
 </section>
 
@@ -467,6 +490,7 @@ filter: brightness(60%);
   background-color: rgba(128, 128, 128, 0.116);
   padding:30px;
   text-align: center;
+  padding-top:100px;
 }
 
 
@@ -515,21 +539,47 @@ letter-spacing: 5;
 <style>
 
   .com-logo img{
-width:100px;
+width: 200px;
+
   }
 
 
   .com-logo{
-display: grid;
-grid-template-columns:repeat(3,100px);
-justify-content: center;
-align-items: center;
-padding-top:40px;
+    display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  margin-top: 30px;
+  gap: 30px;
+  animation: moveLeft 20s linear infinite;
   }
 
+  .p-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+@keyframes moveLeft {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 .partners{
-  text-align:center;
-  padding:70px;
+ background-color: rgba(128, 128, 128, 0.082);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  height: auto; 
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 20px; 
 }
 
 
@@ -544,16 +594,38 @@ padding-top:40px;
   <h1>PREVIOUS CLIENTS</h1>
   
   <div class="com-logo">
+
+
+    <div class="p-card">
+      <img src="assets/images/lagos-removebg-preview.png" alt="">
+    </div>
+
+
+    <div class="p-card">
+    <img src="assets/images/havilah_group-removebg-preview.png" alt="">
+  </div>
+
+  <div class="p-card">
+    <img src="assets/images/hp-removebg-preview.png" alt="">
+  </div>
+
+
+  <div class="p-card">
+    <img src="assets/images/NNPC-Logo.png" alt="">
+  </div>
+
+    <div class="p-card">
+      <img src="assets/images/cropped-cropped-GoldPlates.png" alt="">
+    </div>
+
+    <div class="p-card">
+      <img src="assets/images/zenith.png" alt="">
+    </div>
+
   
-  <img src="assets/images/Pundit logo/dangote.png" alt="">
-  <img src="assets/images/Pundit logo/macgee..png" alt="">
-  
-  <img src="assets/images/Pundit logo/nigeria brewery.png" alt="">
-  <img src="assets/images/Pundit logo/nnpc.png" alt="">
-  
-  <img src="assets/images/Pundit logo/seplat.png" alt="">
-  
-  
+
+   
+    
   
   </div>
   
