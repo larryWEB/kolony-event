@@ -149,12 +149,12 @@ justify-content: center;
               
         .logo-card{
         position:relative;
-        top:-8px;
+        top:-3px;
        z-index: 70;
         }  
                
         .logo-card img{
-        width:200px;
+        width:180px;
          }  
         
         .menu-btns {
@@ -215,17 +215,17 @@ justify-content: center;
         justify-content: center;
         align-items: center;
         position: relative;
-        margin: 46px;
+        margin: 27px;
         font-weight: bold;
         font-family: var(--font-2);
-        top:110px;
+        top:50px;
         }
         
         #special-btn {
-        background-color: var(--color-dark-purple);
+        background-color: goldenrod;
         width: 130px;
         text-align: center;
-        line-height: 2.2;
+        line-height: 1.7;
         color: white;
         border-radius: 5px;
         }
