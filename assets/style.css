@@ -29,6 +29,7 @@ h1,h2,h3,h4,h5,h6, span{
   font-family: "Italianno", cursive;
   font-style: normal;
   font-weight: bold;
+  color: goldenrod;
 }
 
 .email h1{
